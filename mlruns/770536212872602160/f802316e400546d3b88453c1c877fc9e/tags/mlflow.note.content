@@ -1,0 +1,37 @@
+**🔎 Step 1: Open the Experiment**
+
+On the left sidebar you’ll see Experiments.
+
+You should see one called amazon_delivery_time (this is the one created in your training script).
+
+Click on it → this opens the experiment dashboard.
+
+**🔎 Step 2: Explore Runs**
+
+Each time you trained a model (Random Forest, XGBoost, etc.), MLflow created a Run entry.
+
+For each run, you’ll see:
+
+run_name → e.g., random_forest, xgboost
+
+rmse → root mean squared error
+
+mae → mean absolute error
+
+r2 → coefficient of determination
+
+params → model hyperparameters (like n_estimators)
+
+✅ Compare them side by side — you’ll notice your random_forest run has the lowest RMSE.
+
+**🔎 Step 3: Drill Down Into a Run**
+
+Click on the run_id (blue link). Inside you’ll find:
+
+Parameters: model settings used.
+
+Metrics: graphs of RMSE, MAE, R².
+
+Artifacts: saved model, preprocessing pipeline, etc.
+
+Tags: metadata about the run.

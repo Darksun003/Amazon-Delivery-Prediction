@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Internships/labmentix/Amazon%20Delivery%20Prediction/mlruns/770536212872602160/models/m-2d3322504b2440baab7f565e955dbd4b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 3.4.0
+model_id: m-2d3322504b2440baab7f565e955dbd4b
+model_size_bytes: 921637
+model_uuid: m-2d3322504b2440baab7f565e955dbd4b
+prompts: null
+run_id: ce4d41755ed84d2eadd8349d643ed9c9
+utc_time_created: '2025-09-28 05:28:43.185979'

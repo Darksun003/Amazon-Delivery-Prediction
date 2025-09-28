@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Internships/labmentix/Amazon%20Delivery%20Prediction/mlruns/770536212872602160/models/m-b62df2f2e1124cd9bcd4c306b7ff320c/artifacts
+creation_timestamp: 1759037311364
+experiment_id: '770536212872602160'
+last_updated_timestamp: 1759037322040
+model_id: m-b62df2f2e1124cd9bcd4c306b7ff320c
+model_type: null
+name: model
+source_run_id: f802316e400546d3b88453c1c877fc9e
+status: 2
+status_message: null
