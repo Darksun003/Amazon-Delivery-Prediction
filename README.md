@@ -34,6 +34,7 @@ This project predicts e-commerce delivery times for Amazon orders using Machine 
 ---
 
 ## 📂 Project Structure
+```
 ├── data/ # Raw & processed datasets (tracked with Git LFS)
 ├── mlruns # Gives temporory webpage and shows metrics also dashboards
 ├── models/src/ # Trained ML models, Python scripts for preprocessing, feature engineering, modeling
@@ -44,7 +45,7 @@ This project predicts e-commerce delivery times for Amazon orders using Machine 
 ├── app.py # Streamlit app code
 ├── requirements.txt # Dependencies
 └── README.md
-
+```
 
 ---
 🔮 Future Enhancements
